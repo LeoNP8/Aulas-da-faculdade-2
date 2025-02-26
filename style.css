@@ -1,0 +1,88 @@
+@keyframes clori {
+    from {
+        background-color: #6666ff;
+        color: #6666ff;
+    }
+    10% {
+        background-color: #0099ff;
+        color: #0099ff;
+    }
+    50% {
+        background-color: #00ff00;
+        color: #00ff00;
+    }
+    75% {
+        background-color: #ff3399;
+        color: #ff3399;
+    }
+    100% {
+        background-color: #6666ff;    
+        color: #6666ff;
+    }
+  }
+
+  @keyframes giropoggers{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+
+  @keyframes bodi {
+    from {
+        background-color: #6666ff;
+        
+    }
+    10% {
+        background-color: #0099ff;
+        
+    }
+    50% {
+        background-color: #00ff00;
+        
+    }
+    75% {
+        background-color: #ff3399;
+        
+    }
+    100% {
+        background-color: #6666ff;    
+        
+    }
+  }
+
+body{
+    animation: 2s bodi infinite;
+    color: black;
+  }
+
+
+marquee{
+    animation: 2s  infinite;
+    font-size: 50px;
+}
+
+a{
+    animation: 2s  infinite;
+    text-decoration: none;
+}
+
+img{
+    animation: 2s giropoggers infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+table, th, td{
+    width: 100%;
+    border: 1px solid red;
+}
+
+
+
+
+
